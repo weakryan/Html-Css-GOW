@@ -1,0 +1,130 @@
+body {
+background-color: black;
+}
+
+.telas {
+    display: grid;
+    grid-template-areas: 
+    'topo topo topo'
+    'menuu menuu menuu'
+    'meio meio meio2'
+    'rodape rodape rodape';
+}
+
+#topo {
+    grid-area: topo;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+}
+
+#menuu {
+    grid-area: menuu;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: center;
+}
+.menu {   
+    display: inline-block;
+    background-color: #621708;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 10px;
+    transition: all;
+}
+.menu:hover {
+    transition-duration: 0.5s;
+    background-color: rgb(157, 171, 172);
+}
+
+#meio {
+    border: 10px solid rgb(10, 11, 12);
+
+    margin-top: 1cm;
+    background-color: #621708;
+    grid-area: meio;
+    width: 100%;
+
+
+}
+
+#meio2 {
+    border: 10px solid rgb(10, 11, 12);
+    margin-top: 1cm;
+    background-color: #621708;
+    width: 600px;
+    grid-area: meio2;
+
+}
+
+#mensagem {
+    margin-left: 15px;
+    width: 30px;
+    
+}
+
+#ligacao {
+    margin-left: 15px;
+    width: 30px;
+}
+
+.linguica {
+    
+    margin-left: 15px; 
+    color: aliceblue;
+    
+}
+.linguicaj {
+    padding: 10px;
+    font-size: larger;
+    color: aliceblue;
+    text-align: center;    
+}
+
+.campin {
+    width: 535px;
+    margin-left: 1cm;
+    border-radius: 5px;
+    border: 8px solid black;
+}
+
+#campin {
+    color: aliceblue;
+    width: 535px;
+    height: 3cm;
+    margin-left: 1cm;
+    border-radius: 5px;
+    border: 8px solid black;
+}
+
+#botao {
+    padding: 5px;
+    background-color: gold;
+    margin-left: cm;
+    border: 8px solid black;
+    width: 100px;
+    border-radius: 50px;
+
+}
+
+#titu {
+    text-align: center;
+    color: yellow
+}
+
+#insiranome{
+    background-color: #eaeaea;
+}
+#insiraemail {
+    background-color: #eaeaea;
+}
+#insiramsg{
+    background-color: #eaeaea;
+}
+
+label {
+    margin-left: 10px;
+    font-size: larger;
+    color: aliceblue;
+}
